@@ -11,5 +11,8 @@ COMPILE
 Z0 ... Z3
 - 'gcc main.c -o main'
 
-Z4
+Z4 ... Z5
 - 'gcc main.c monopoly.c -o main'
+
+Z6
+- 'gcc main.c -o main -lncursesw'
